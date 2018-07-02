@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/default_bg"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="请选择图片方式"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:textColor="@color/grey"
+        android:background="@color/white"/>
+
+    <View style="@style/item_cut_off_line_Style"/>
+
+    <Button
+        android:id="@+id/mBtnTakePhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="拍照"
+        android:textColor="@color/appBg"
+        android:background="@color/white"
+        android:textSize="@dimen/text_medium"
+        />
+    <View style="@style/item_cut_off_line_Style"/>
+
+    <Button
+        android:id="@+id/mBtnChoosePhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="从相册选取"
+        android:textColor="@color/appBg"
+        android:background="@color/white"
+        android:textSize="@dimen/text_medium"
+        />
+
+    <Button
+        android:id="@+id/mBtnCancel"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="取消"
+        android:textColor="@color/appBg"
+        android:textSize="@dimen/text_medium"
+        android:background="@drawable/selector_img_btn_bg" />
+
+
+</LinearLayout>

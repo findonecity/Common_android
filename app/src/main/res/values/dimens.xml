@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 字体大小 -->
+    <dimen name="text_xxxsmall">10.0sp</dimen>
+    <dimen name="text_xxsmall">12.0sp</dimen>
+    <dimen name="text_xsmall">14.0sp</dimen>
+    <dimen name="text_15">15.0sp</dimen>
+    <dimen name="text_small">16.0sp</dimen>
+    <dimen name="text_medium">18.0sp</dimen>
+    <dimen name="text_19">19.0sp</dimen>
+    <dimen name="text_large">20.0sp</dimen>
+    <dimen name="text_xlarge">22.0sp</dimen>
+    <dimen name="text_xxlarge">24.0sp</dimen>
+
+    <dimen name="text_32">32.0sp</dimen>
+    <dimen name="text_35">35.0sp</dimen>
+    <dimen name="text_et">30.0sp</dimen>
+    <dimen name="text_26">26.0sp</dimen>
+    <!-- End字体大小 -->
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!--topbar导航量高度-->
+    <dimen name="defaulthead_height">44dp</dimen>
+
+    <dimen name="activity_ten_margin">10dp</dimen>
+    <dimen name="activity_sixteen_margin">16dp</dimen>
+</resources>

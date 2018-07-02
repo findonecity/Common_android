@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 填充的颜色 -->
+    <solid android:color="@color/white" />
+    <!-- 设置矩形的四个角为弧形 -->
+    <!-- android:radius 弧形的半径 -->/>
+
+    <stroke
+        android:width="3dp"
+        android:color="@color/blue_scanner" />
+
+
+</shape>

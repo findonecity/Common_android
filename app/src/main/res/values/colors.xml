@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="allbg">#f2f6ff</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="half_transparent">#7f000000</color>
+    <color name="transparent4">#66000000</color>
+
+    <color name="line_grey">#dddddd</color>
+
+    <color name="white">#ffffff</color>
+    <color name="pop_integral">#00ffffff</color>
+    <color name="default_bg">#eeeeee</color>
+    <color name="red">#ff0000</color>
+    <color name="green">#03bc00</color>
+    <color name="grey">#999999</color>
+    <color name="shadow">#e9e7e7</color>
+    <color name="dgrey">#dddddd</color>
+    <color name="itembule">#3d98d1</color>
+    <color name="black">#000000</color>
+    <color name="light_blue">#53a2ff</color><!--蓝色 -->
+    <color name="font_black">#333333</color><!--字体用的淡淡的黑色 -->
+    <color name="blue_right">#1886E3</color><!--较浅的蓝色(大量使用字体)-->
+    <color name="blue_scanner">#1886E3</color><!--扫描字样的蓝色-->
+    <color name="blue2">#3966c1</color>
+    <color name="tvWorking">#738AA2</color><!--首页有任务正在处理中-->
+    <color name="hintclick">#B6BBCA</color><!--按下“确认按键”以确认订单信息-->
+    <color name="loginline">#EFF1F6</color>
+    <color name="loginforgetpassword">#AEBBD5</color>
+    <color name="personline">#E2E4E5</color>
+    <color name="btnLoginout">#F7E3E7</color>
+    <color name="selectblue">#d5e1fb</color>
+    <color name="line1">#DFDFDF</color>
+    <color name="bgstatus">#FFB550</color>
+    <color name="changepasswordbg">#EA878B</color>
+    <color name="grey2">#f3f5fa</color>
+    <color name="green1">#32B16C</color>
+    <color name="red2">#E74C3C</color>
+    <color name="grey4">#F5F4F4</color>
+    <color name="hint">#DCDCDC</color>
+    <color name="grey5">#F2F2F2</color>
+    <color name="grey6">#A1A1A1</color>
+    <color name="grey7">#ececec</color>
+    <color name="grey8">#d1d1d1</color>
+    <color name="grey9">#edf0f5</color>
+    <color name="greenSwitch">#40EE90</color>
+
+
+    <color name="white1">#33ffffff</color>
+    <color name="white50">#7fffffff</color>
+    <color name="line">#cccccc</color>
+    <color name="appBg">#1886E3</color> <!--导航背景色-->
+    <color name="text_dark">#333333</color>
+    <color name="text_dark1">#444444</color>
+    <color name="btn_red">#ff001f</color>
+    <color name="text_gray">#999999</color>
+    <color name="text_gray6">#666666</color>
+    <color name="search_bg">#64999999</color>
+    <color name="bg">#f5f5f5</color>
+    <color name="gray_bg">#0d999999</color>
+    <color name="login_contour">#4D76C7</color>
+    <color name="gray_bg1">#a3a3a3</color>
+    <color name="gray_bg2">#f0f0f0</color>
+    <color name="text_org">#FF6700</color>
+    <color name="text_org1">#FF4800</color>
+    <color name="text_red">#D0011B</color>
+    <color name="text_blue">#50B4EA</color>
+    <color name="group_red">#E25948</color>
+    <color name="load_color">#64333333</color>
+    <color name="group_red_transparent">#47e25948</color>
+    <color name="text_authentication_red">#E25948</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="money_color">#4d4d4d</color>
+    <color name="dark_bg">#020012</color>
+
+    <drawable name="key_normal_color">#fcfcfc</drawable>
+    <drawable name="key_selected_color">#b8bcc0</drawable>
+    <drawable name="keyboard_bg_color">#acb3b6</drawable>
+
+    <color name="text">#776db3ed</color>
+    <color name="integral_mall_order_title">#444444</color>
+    <color name="integral_mall_order_money">#ff4800</color>
+    <color name="integral_mall_order_point">#ff9b73</color>
+    <color name="integral_mall_good_made">#3f3f3f</color>
+    <color name="item_integral_mall_choose_text">#f8f8f8</color>
+
+    <!-- 白色 -->
+    <color name="common_pressed">#20000000</color>  <!--白色背景按下去的颜色-->
+</resources>
