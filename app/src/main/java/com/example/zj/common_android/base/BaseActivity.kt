@@ -10,9 +10,7 @@ import android.support.v7.app.AppCompatActivity
 import android.util.DisplayMetrics
 import android.view.View
 import android.view.WindowManager
-import com.example.zj.common_android.widget.defaultPopupDialog.DefaultPopupDialog
-import com.example.zj.common_android.widget.defaultPopupDialog.OnCancelListener
-import com.example.zj.common_android.widget.defaultPopupDialog.OnConfirmListener
+
 import com.example.zj.common_android.R
 import com.example.zj.common_android.net.ProgressDialogHandler
 import com.example.zj.common_android.util.ChangeStatusBarDark
@@ -153,51 +151,12 @@ abstract class BaseActivity<T : BasePresenter<BaseView>> : AppCompatActivity(), 
         this.finish()
     }
 
-    //默认图片的弹框
-    override fun showDialog(msg: String, onConfirmListener: OnConfirmListener) {
-        val popupDialog = DefaultPopupDialog(this@BaseActivity)
-        popupDialog.setMsg(msg)
-        popupDialog.setOnConfirmListener(onConfirmListener)
-        popupDialog.show()
-    }
 
-    //非默认图片的弹框
-    override fun showDialog(r: Int, msg: String, onConfirmListener: OnConfirmListener) {
-        val popupDialog = DefaultPopupDialog(this@BaseActivity)
-        popupDialog.setImage(r)
-        popupDialog.setMsg(msg)
-        popupDialog.setOnConfirmListener(onConfirmListener)
-        popupDialog.show()
-    }
 
-    //可设置按钮文字
-    override fun showDialog(msg: String, cancelText: String, confirmText: String,
-                            onCancelListener: OnCancelListener?, onConfirmListener: OnConfirmListener?) {
-        val popupDialog = DefaultPopupDialog(this@BaseActivity)
-        if ("" == cancelText) {
-            popupDialog.setBtnCancelVisibility(false)
-        } else {
-            popupDialog.setBtnCancelText(cancelText)
-        }
-        popupDialog.setBtnOkText(confirmText)
-        popupDialog.setMsg(msg)
-        popupDialog.setOnConfirmListener(onConfirmListener)
-        popupDialog.setOnCancelListener(onCancelListener)
-        popupDialog.show()
-    }
 
-    //可设置按钮文字 图片
-    override fun showDialog(r: Int, msg: String, cancelText: String, confirmText: String,
-                            onCancelListener: OnCancelListener?, onConfirmListener: OnConfirmListener?) {
-        val popupDialog = DefaultPopupDialog(this@BaseActivity)
-        popupDialog.setImage(r)
-        popupDialog.setBtnCancelText(cancelText)
-        popupDialog.setBtnOkText(confirmText)
-        popupDialog.setMsg(msg)
-        popupDialog.setOnConfirmListener(onConfirmListener)
-        popupDialog.setOnConfirmListener(onConfirmListener)
-        popupDialog.show()
-    }
+
+
+
 
     //自定义的toast
     override fun showCustomToast(msg: String) {

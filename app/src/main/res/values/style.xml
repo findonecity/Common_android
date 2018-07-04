@@ -28,14 +28,6 @@
         <item name="android:windowAnimationStyle">@null</item>
     </style>
 
-    <!-- 从左到右的动画 -->
-    <style name="LeftToRight" parent="android:Animation">
-
-        <!-- //进入时的动画 -->
-        <item name="@android:windowEnterAnimation">@anim/dialog_left_enter</item>
-        <!-- //退出时的动画 -->
-        <item name="@android:windowExitAnimation">@anim/dialog_left_exit</item>
-    </style>
 
     <!-- 底部弹出菜单 -->
     <style name="buttom_menu_dialog" parent="android:style/Theme.Holo.Light">
@@ -55,23 +47,4 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">0.5dp</item>
     </style>
-
-    <style name="BottomToTopAnim" parent="android:Animation">
-
-        <!-- //进入时的动画 -->
-        <item name="@android:windowEnterAnimation">@anim/dialog_bottom_enter</item>
-        <!-- //退出时的动画 -->
-        <item name="@android:windowExitAnimation">@anim/dialog_bottom_exit</item>
-    </style>
-    <!-- END底部弹出菜单 -->
-    <style name="DarkAnimation">
-        <item name="android:windowEnterAnimation">@anim/dark_fade_in</item>
-        <item name="android:windowExitAnimation">@anim/dark_fade_out</item>
-    </style>
-
-    <style name="MyEditText" parent="Theme.AppCompat.Light">
-        <item name="colorControlNormal">@color/grey8</item>
-        <item name="colorControlActivated">@color/grey8</item>
-    </style>
-
 </resources>
