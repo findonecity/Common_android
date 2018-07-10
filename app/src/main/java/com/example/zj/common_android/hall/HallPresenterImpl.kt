@@ -8,6 +8,10 @@ import com.example.zj.common_android.base.BaseView
  * is use for: 购彩大厅
  */
 class HallPresenterImpl : BaseContract.HallPresenter{
+    override fun getBannerImg() {
+        mView?.setBannerImg()
+    }
+
     private var mView: BaseContract.HallView? = null
     override fun attachView(view: BaseView?) {
         mView = view as BaseContract.HallView

@@ -23,9 +23,13 @@ class BaseContract {
     /**
      * 购彩大厅
      */
-    interface HallView : BaseView
+    interface HallView : BaseView{
+        fun setBannerImg()
+    }
 
-    interface HallPresenter: BasePresenter<BaseView>
+    interface HallPresenter: BasePresenter<BaseView>{
+        fun getBannerImg()
+    }
 
     /**
      * 开奖记录

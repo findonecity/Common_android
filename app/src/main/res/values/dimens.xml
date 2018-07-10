@@ -27,4 +27,6 @@
 
     <dimen name="activity_ten_margin">10dp</dimen>
     <dimen name="activity_sixteen_margin">16dp</dimen>
+
+    <dimen name="flash_view_dot_size">6dp</dimen>
 </resources>
