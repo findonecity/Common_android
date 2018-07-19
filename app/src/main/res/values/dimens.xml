@@ -2,6 +2,7 @@
 <resources>
 
     <!-- 字体大小 -->
+    <dimen name="text_xxxxsmall">8.0sp</dimen>
     <dimen name="text_xxxsmall">10.0sp</dimen>
     <dimen name="text_xxsmall">12.0sp</dimen>
     <dimen name="text_xsmall">14.0sp</dimen>

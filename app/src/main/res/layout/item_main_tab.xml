@@ -8,7 +8,7 @@
     <ImageView
         android:id="@+id/item_main_tab_img"
         android:layout_width="50dp"
-        android:layout_height="35dp"
+        android:layout_height="30dp"
         android:focusable="false"
         android:padding="6dp"
         android:src="@mipmap/ic_launcher"/>
@@ -17,8 +17,7 @@
         android:id="@+id/ll_tabhost_number"
         android:layout_width="48dp"
         android:layout_height="48dp"
-        android:gravity="right|top"
-        android:visibility="gone">
+        android:gravity="right|top">
 
         <TextView
             android:id="@+id/tabhost_number"
@@ -39,7 +38,7 @@
         android:layout_marginTop="35dp"
         android:layout_marginBottom="5dp"
         android:gravity="center"
-        android:textSize="8sp"
+        android:textSize="@dimen/text_xxxxsmall"
         android:paddingRight="6dp"
         android:paddingEnd="6dp"
         android:paddingLeft="6dp"
