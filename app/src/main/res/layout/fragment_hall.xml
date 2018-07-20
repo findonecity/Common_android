@@ -21,7 +21,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="45dp"
+                android:layout_height="50dp"
                 android:orientation="horizontal">
                 <ImageView
                     android:layout_width="30dp"
@@ -70,7 +70,7 @@
                     <ImageButton
                         android:id="@+id/paperboard"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="0dp"
                         android:layout_weight="1"
                         android:background="@null"
                         android:scaleType="center"
@@ -95,7 +95,7 @@
                     <ImageButton
                         android:id="@+id/store"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="0dp"
                         android:layout_weight="1"
                         android:background="@null"
                         android:scaleType="center"
@@ -120,7 +120,7 @@
                     <ImageButton
                         android:id="@+id/auxiliary"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="0dp"
                         android:layout_weight="1"
                         android:background="@null"
                         android:scaleType="center"
@@ -145,7 +145,7 @@
                     <ImageButton
                         android:id="@+id/service"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="0dp"
                         android:layout_weight="1"
                         android:background="@null"
                         android:scaleType="center"
